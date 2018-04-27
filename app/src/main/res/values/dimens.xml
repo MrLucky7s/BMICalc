@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="promptTextSize">22sp</dimen>
+    <dimen name="topMarginPrompt">12dp</dimen>
+    <dimen name="inputSize">18sp</dimen>
+    <dimen name="outputSize">30sp</dimen>
+</resources>

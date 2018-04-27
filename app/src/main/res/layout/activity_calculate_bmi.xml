@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvHeightPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/heightPrompt"
+        style="@style/Prompts"/>
+    <EditText
+        android:id="@+id/etMetersInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/metersHint"
+        style="@style/Input"
+        android:layout_below="@id/tvHeightPrompt"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvWeightPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/weightPrompt"
+        style="@style/Prompts"
+        android:layout_below="@id/etMetersInput"
+        android:layout_marginTop="@dimen/topMarginPrompt"/>
+    <EditText
+        android:id="@+id/etKilogramsInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/kilogramsHint"
+        android:layout_below="@id/tvWeightPrompt"
+        android:layout_centerHorizontal="true"
+        style="@style/Input"/>
+    <Button
+        android:id="@+id/btCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/calculateHint"
+        android:layout_below="@id/etKilogramsInput"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tvBMINumOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btCalculate"
+        android:gravity="end"
+        android:textSize="@dimen/outputSize"/>
+    <TextView
+        android:id="@+id/tvBMITextOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBMINumOutput"
+        android:gravity="end"
+        android:textSize="@dimen/outputSize"/>
+
+    <ImageView
+        android:id="@+id/ivBodyType"
+        android:layout_width="202dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/tvBMITextOutput" />
+
+
+    <TextView
+        android:id="@+id/BMIInfo"
+        android:layout_width="177dp"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

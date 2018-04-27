@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMICalc</string>
+    <string name="heightPrompt">Enter your height in meters:</string>
+    <string name="weightPrompt">Enter your weight in kilograms:</string>
+    <string name="metersHint">meters</string>
+    <string name="kilogramsHint">kilograms</string>
+    <string name="calculateHint">Calculate</string>
+    <string name="Underweight">Underweight</string>
+    <string name="UnderweightDesc">You should probably gain weight</string>
+    <string name="Normal">Normal</string>
+    <string name="NormalDesc">You are doing fine!</string>
+    <string name="Overweight">Overweight</string>
+    <string name="OverweightDesc">Lose weight!</string>
+    <string name="Obese">Obese</string>
+    <string name="ObeseInfo">Lose weight ffs!</string>
+</resources>
