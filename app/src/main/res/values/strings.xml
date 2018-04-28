@@ -6,11 +6,11 @@
     <string name="kilogramsHint">kilograms</string>
     <string name="calculateHint">Calculate</string>
     <string name="Underweight">Underweight</string>
-    <string name="UnderweightDesc">You should probably gain weight</string>
+    <string name="UnderweightDesc">An underweight person is a person whose body weight is considered too low to be healthy. </string>
     <string name="Normal">Normal</string>
     <string name="NormalDesc">You are doing fine!</string>
     <string name="Overweight">Overweight</string>
-    <string name="OverweightDesc">Lose weight!</string>
+    <string name="OverweightDesc">Being overweight or fat is having more body fat than is optimally healthy.</string>
     <string name="Obese">Obese</string>
-    <string name="ObeseInfo">Lose weight ffs!</string>
+    <string name="ObeseInfo">Obesity is a medical condition in which excess body fat has accumulated to the extent that it may have a negative effect on health.</string>
 </resources>
